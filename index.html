@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Libercoin</title>
+  <meta name="description" content="Libercoin it is an new cryptocurrency payment network which the gifted you next level your anonymity.">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/animate.css">
   <script src="js/wow.min.js">
@@ -19,17 +20,17 @@
     <div class="main-screen">
       <div class="header">
         <div class="menu wow fadeInDown">
-          <a href="#" class="menu-item">About</a>
-          <a href="#" class="menu-item">Specifications</a>
-          <a href="#" class="menu-item">Privacy</a>
-          <a href="#" class="menu-item">Messanger</a>
-          <a href="#" class="menu-item">Agora</a>
-          <a href="#" class="menu-item">Roadmap</a>
-          <a href="#" class="menu-item">Downloads</a>
+          <a href="#about" class="menu-item">About</a>
+          <a href="#spec" class="menu-item">Specifications</a>
+          <a href="#privacy" class="menu-item">Privacy</a>
+          <a href="#lmessage" class="menu-item">Messanger</a>
+          <a href="#agora" class="menu-item">Agora</a>
+          <a href="#rm" class="menu-item">Roadmap</a>
+          <a href="#downloads" class="menu-item">Downloads</a>
         </div>
         <div class="header__socnetwork-circle-blocks wow fadeInRight">
-          <div class="header__socnetwork-circle"><a href="#"></a></div>
-          <div class="header__socnetwork-circle"><a href="#"></a></div>
+          <div class="header__socnetwork-circle"><a href="https://t.me/libercoin_project"></a></div>
+          <div class="header__socnetwork-circle"><a href="https://github.com/libercoinproject"></a></div>
           <div class="header__socnetwork-circle"><a href="#"></a></div>
           <div class="header__socnetwork-circle"><a href="#"></a></div>
         </div>
@@ -46,7 +47,7 @@ future</p>
     </div>
   </section>
   <section>
-    <div class="about">
+    <div class="about" id="about">
       <div class="about__main-title-block">
         <h3 class="about__main-title wow flipInX">About</h3>
       </div>
@@ -54,15 +55,14 @@ future</p>
         <img src="img/file.png" alt="" class="about__items-img">
         <div class="about__items-text-block">
           <p class="about__items-title">Payment Privacy</p>
-          <p class="about__items-description">You can use two types of wallet addresses: transparent wallets, for making public transactions, and stealth wallets, for making anonymous payments.</p>
+          <p class="about__items-description">You can use the Zerocoin protocol to obfuscate your coins and keep your financial privacy.</p>
         </div>
       </div>
       <div class="about__items wow zoomIn">
         <img src="img/mail.png" alt="" class="about__items-img">
         <div class="about__items-text-block">
           <p class="about__items-title">Secure messanger</p>
-          <p class="about__items-description">Messages are encrypted with
-end-to-end encryption algorithm. Libercoin is a decentralized platform and we don’t store any logs.</p>
+          <p class="about__items-description">Libercoin allows you to anonymously send and receive encrypted messages within the LMessage system.</p>
         </div>
       </div>
       <div class="about__items wow zoomIn">
@@ -75,7 +75,7 @@ end-to-end encryption algorithm. Libercoin is a decentralized platform and we do
     </div>
   </section>
   <section>
-    <div class="spec">
+    <div class="spec" id="spec">
       <div class="about__main-title-block">
         <h3 class="spec__main-title wow flipInX">Specifications</h3>
       </div>
@@ -88,28 +88,12 @@ end-to-end encryption algorithm. Libercoin is a decentralized platform and we do
         <p class="spec__text">Mining algorithm: Liberhash</p>
       </div>
       <div class="spec__item wow slideInLeft">
-        <img src="img/segwit.png" alt="Block time: 1 minute" class="spec__img">
-        <p class="spec__text">Segregated Witness</p>
-      </div>
-      <div class="spec__item wow slideInLeft">
-        <img src="img/lightning.png" alt="Block time: 1 minute" class="spec__img">
-        <p class="spec__text">Lightning Network</p>
-      </div>
-      <div class="spec__item wow slideInLeft">
-        <img src="img/maze.png" alt="Block time: 1 minute" class="spec__img">
-        <p class="spec__text">Zerocoin obfuscation</p>
-      </div>
-      <div class="spec__item wow slideInLeft">
-        <img src="img/atom.png" alt="Block time: 1 minute" class="spec__img">
-        <p class="spec__text">Atomic Swap</p>
-      </div>
-      <div class="spec__item wow slideInLeft">
         <img src="img/alarm-clock.png" alt="Block time: 1 minute" class="spec__img">
         <p class="spec__text">Block time: 2.5 minutes</p>
       </div>
       <div class="spec__item wow slideInLeft">
         <img src="img/diagonal.png" alt="Block size: 16 MB" class="spec__img">
-        <p class="spec__text">Block size: 32 MB</p>
+        <p class="spec__text">Block size: adaptive (max 32 MB)</p>
       </div>
       <div class="spec__item wow slideInLeft">
         <img src="img/notes.png" alt="16,000 transactions per minute" class="spec__img">
@@ -117,7 +101,7 @@ end-to-end encryption algorithm. Libercoin is a decentralized platform and we do
       </div>
       <div class="spec__item wow slideInLeft">
         <img src="img/libercoin_logo.png" alt="Block time: 1 minute" class="spec__img">
-        <p class="spec__text">Libernodes for X LBR</p>
+        <p class="spec__text">512 LBR for Libernode</p>
       </div>
       <div class="spec__item wow slideInLeft">
         <img src="img/strongbox.png" alt="Total supply: 10 000 000 LBR" class="spec__img">
@@ -125,12 +109,28 @@ end-to-end encryption algorithm. Libercoin is a decentralized platform and we do
       </div>
       <div class="spec__item wow slideInLeft">
         <img src="img/wagon.png" alt="Premine: 125,000 LBR" class="spec__img">
-        <p class="spec__text">Premine: 125,000 LBR</p>
+        <p class="spec__text">Premine: None</p>
+      </div>
+	  <div class="spec__item wow slideInLeft">
+        <img src="img/segwit.png" alt="Block time: 1 minute" class="spec__img">
+        <p class="spec__text">Segregated Witness</p>
+      </div>
+      <div class="spec__item wow slideInLeft">
+        <img src="img/lightning.png" alt="Block time: 1 minute" class="spec__img">
+        <p	 class="spec__text">Lightning Network</p>
+      </div>
+      <div class="spec__item wow slideInLeft">
+        <img src="img/maze.png" alt="Block time: 1 minute" class="spec__img">
+        <p class="spec__text">Zerocoin protocol obfuscation</p>
+      </div>
+      <div class="spec__item wow slideInLeft">
+        <img src="img/atom.png" alt="Block time: 1 minute" class="spec__img">
+        <p class="spec__text">Atomic Swap</p>
       </div>
     </div>
   </section>
   <section>
-    <div class="privacy">
+    <div class="privacy" id="privacy">
       <div class="about__main-title-block">
         <h3 class="spec__main-title wow flipInX">Privacy</h3>
       </div>
@@ -158,9 +158,9 @@ Zerocash protocol</p>
     </div>
   </section>
   <section>
-    <div class="messanger">
+    <div class="messanger" id="lmessage">
       <div class="about__main-title-block">
-        <h3 class="spec__main-title wow flipInX">Messanger</h3>
+        <h3 class="spec__main-title wow flipInX">LMessenger</h3>
       </div>
       <img src="img/mockup2.png" alt="" class="messanger__screen-img wow fadeInLeft">
       <div class="messanger__flex-block">
@@ -168,35 +168,35 @@ Zerocash protocol</p>
           <img src="img/padlock.png" alt="" class="messanger__img">
           <div class="messanger__text-block">
             <h4 class="messanger__item-title">End-to-end</h4>
-            <p class="messanger__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet turpi</p>
+            <p class="messanger__item-description">All messages are end-to-end encrypted by SHA-256 algorithm.</p>
           </div>
         </div>
         <div class="messanger__flex-items wow slideInRight">
           <img src="img/phone-book.png" alt="" class="messanger__img">
           <div class="messanger__text-block">
-            <h4 class="messanger__item-title">Contacts</h4>
-            <p class="messanger__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet turpi</p>
+            <h4 class="messanger__item-title">Anonymity</h4>
+            <p class="messanger__item-description">LMessenger used not relate to payment addresses for protect your privacy.</p>
           </div>
         </div>
         <div class="messanger__flex-items wow slideInRight">
           <img src="img/team.png" alt="" class="messanger__img">
           <div class="messanger__text-block">
             <h4 class="messanger__item-title">Groups</h4>
-            <p class="messanger__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet turpi</p>
+            <p class="messanger__item-description">You can create private chat-room with unlimited number of interlocutors.</p>
           </div>
         </div>
         <div class="messanger__flex-items wow slideInRight">
           <img src="img/qr-code.png" alt="" class="messanger__img">
           <div class="messanger__text-block">
             <h4 class="messanger__item-title">Nicknames</h4>
-            <p class="messanger__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet turpi</p>
+            <p class="messanger__item-description">You can assign nicknames for your friends and other peoples from your contact-list.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
   <section>
-    <div class="agora">
+    <div class="agora" id="agora">
       <div class="about__main-title-block">
         <h3 class="spec__main-title wow flipInX">Agora</h3>
       </div>
@@ -221,7 +221,7 @@ Zerocash protocol</p>
     </div>
   </section>
   <section>
-    <div class="rm">
+    <div class="rm" id="rm">
       <div class="about__main-title-block">
         <h3 class="spec__main-title wow flipInX">Roadmap</h3>
       </div>
@@ -237,16 +237,16 @@ Zerocash protocol</p>
             <span>October<br>2018</span>
           </div>
           <div class="rm_date-block wow flipInX">
-            <span>Q1 2019</span>
+            <span>November<br>2018</span>
+          </div>
+          <div class="rm_date-block wow flipInX">
+            <span>December<br>2018</span>
           </div>
           <div class="rm_date-block wow flipInX">
             <span>Q1 2019</span>
           </div>
           <div class="rm_date-block wow flipInX">
             <span>Q2 2019</span>
-          </div>
-          <div class="rm_date-block wow flipInX">
-            <span>Q4 2019</span>
           </div>
         </div>
         <div class="rm__rm-line-block wow zoomIn">
@@ -275,23 +275,23 @@ Zerocash protocol</p>
             <span>IOS Wallet</span>
           </div>
           <div class="rm__text-block wow flipInX">
-            <span>Segregated Witness</span>
+            <span>Libercoin knowledge base</span>
           </div>
           <div class="rm__text-block wow flipInX">
-            <span>Lighting Network</span>
+            <span>LPay</span>
           </div>
           <div class="rm__text-block wow flipInX">
-            <span>Atomic swap</span>
+            <span>Encrypted Voice Calls</span>
           </div>
           <div class="rm__text-block wow flipInX">
-            <span>MultiChain</span>
+            <span>Encrypted Video Calls</span>
           </div>
         </div>
       </div>
     </div>
   </section>
   <section>
-    <div class="downloads">
+    <div class="downloads" id="downloads">
       <div class="about__main-title-block">
         <h3 class="spec__main-title wow flipInX">Downloads</h3>
       </div>
@@ -323,13 +323,13 @@ Zerocash protocol</p>
   <section>
     <div class="social">
       <div class="social__flex">
-        <div class="social__circle wow shake"><a href=""></a></div>
-        <div class="social__circle wow shake"><a href=""></a></div>
+        <div class="social__circle wow shake"><a href="https://t.me/libercoin_project"></a></div>
+        <div class="social__circle wow shake"><a href="https://github.com/libercoinproject"></a></div>
         <div class="social__circle wow shake"><a href=""></a></div>
         <div class="social__circle wow shake"><a href=""></a></div>
       </div>
-      <p class="copyright wow fadeInUp">Copyright (c) 2018 Copyright Libercoin All Rights Reserved.</p>
-    </div>
+      <p class="copyright wow fadeInUp">&copy; Libercoin Foundation, 2017-<script type="text/javascript">var year = new Date(); document.write(year.getFullYear());</script>. All Rights Reserved.</p>
+    </div
   </section>
 </body>
 </html>
