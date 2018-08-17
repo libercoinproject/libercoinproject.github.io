@@ -8,9 +8,5 @@ Report problems or help improve the site by opening a [new issue](https://github
 
 Participation in this project is subject to a [Code of Conduct](https://github.com/libercoinproject/libercoinproject.github.io/blob/master/CODE_OF_CONDUCT.md).
 
-### Donations
-
-Bitcoin.org is community supported: [3FkenCiXpSLqD8L79intRNXUgjRoH9sjXa](bitcoin:3FkenCiXpSLqD8L79intRNXUgjRoH9sjXa)
-
 ### Questions?
 Please contact NGolderyN ([@NGolderyN](Telegram)) if you need help.
