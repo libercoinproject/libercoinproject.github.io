@@ -181,7 +181,7 @@ a {
     transition: all .5s;
     opacity: 0.75; }
     .header__socnetwork-circle:hover:nth-child(2) a {
-      color: #1854b7;
+      color: #00C853;
       transition: all .5s; }
   .header__socnetwork-circle:hover:nth-child(3) {
     transition: all .5s;
@@ -1538,7 +1538,7 @@ a {
     opacity: 0.75;
     background-color: #000; }
     .social__circle:hover:nth-child(2) a {
-      color: #1854b7;
+      color: #00C853;
       transition: all .5s; }
   .social__circle:hover:nth-child(3) {
     transition: all .5s;
