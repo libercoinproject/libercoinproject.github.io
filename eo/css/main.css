@@ -308,7 +308,7 @@ a {
        } }
 
 .main-screen__description {
-  margin-top: 20px;
+  margin-top: 55px;
   margin-bottom: 0;
   font-size: 50px;
   font-family: MyriadRegular; }
@@ -326,6 +326,7 @@ a {
       font-size: 40px; } }
   @media screen and (max-width: 1050px) {
     .main-screen__description {
+      margin-top: 20px;
       font-size: 34px; } }
 
 .main-screen__btn {
