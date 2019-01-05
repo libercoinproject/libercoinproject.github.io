@@ -72,7 +72,8 @@ a {
   margin-top: 0;
   margin-bottom: 0;
   text-decoration: none;
-  color: black; }
+  color: black;
+  transition: color .2s ease;}
   @media screen and (min-width: 1920px) {
     .menu-item {
       font-size: 30px; } }
@@ -107,6 +108,9 @@ a {
   @media screen and (max-width: 980px) {
     .menu-item:nth-child(3) {
       display: none; } }
+.menu-item:hover {
+  color: #5dda92;
+  transition: color .2s ease; }
 
 .header__socnetwork-circle-blocks {
   position: absolute;
