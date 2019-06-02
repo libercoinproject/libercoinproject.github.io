@@ -179,25 +179,31 @@ a {
     transition: all .5s;
     opacity: 0.75; }
     .header__socnetwork-circle:hover:nth-child(1) a {
-      color: #32b4f0;
+      color: #0088cc;
       transition: all .5s; }
   .header__socnetwork-circle:hover:nth-child(2) {
     transition: all .5s;
     opacity: 0.75; }
     .header__socnetwork-circle:hover:nth-child(2) a {
-      color: #00C853;
+      color: #6cc644;
       transition: all .5s; }
   .header__socnetwork-circle:hover:nth-child(3) {
     transition: all .5s;
     opacity: 0.75; }
     .header__socnetwork-circle:hover:nth-child(3) a {
-      color: #ffae2e;
+      color: #ff9900;
       transition: all .5s; }
   .header__socnetwork-circle:hover:nth-child(4) {
     transition: all .5s;
     opacity: 0.75; }
     .header__socnetwork-circle:hover:nth-child(4) a {
-      color: #dc3014;
+      color: #ff4500;
+      transition: all .5s; }
+  .header__socnetwork-circle:hover:nth-child(5) {
+    transition: all .5s;
+    opacity: 0.75; }
+    .header__socnetwork-circle:hover:nth-child(5) a {
+      color: #1da1f2;
       transition: all .5s; }
 
 @media screen and (min-width: 1920px) {
@@ -1550,30 +1556,36 @@ a {
     opacity: 0.75;
     background-color: #000; }
     .social__circle:hover:nth-child(1) a {
-      color: #32b4f0;
+      color: #0088cc;
       transition: all .5s; }
   .social__circle:hover:nth-child(2) {
     transition: all .5s;
     opacity: 0.75;
     background-color: #000; }
     .social__circle:hover:nth-child(2) a {
-      color: #00C853;
+      color: #6cc644;
       transition: all .5s; }
   .social__circle:hover:nth-child(3) {
     transition: all .5s;
     opacity: 0.75;
     background-color: #000; }
     .social__circle:hover:nth-child(3) a {
-      color: #ffae2e;
+      color: #ff9900;
       transition: all .5s; }
   .social__circle:hover:nth-child(4) {
     transition: all .5s;
     opacity: 0.75;
     background-color: #000; }
     .social__circle:hover:nth-child(4) a {
-      color: #dc3014;
+      color: #ff4500;
       transition: all .5s; }
-
+  .social__circle:hover:nth-child(5) {
+    transition: all .5s;
+    opacity: 0.75;
+    background-color: #000; }
+    .social__circle:hover:nth-child(5) a {
+      color: #1da1f2;
+      transition: all .5s; }
 .copyright {
   margin-top: 30px;
   font-size: 30px;
